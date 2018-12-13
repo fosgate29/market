@@ -45,7 +45,7 @@ Metamask will open and warn that a Dapp is trying to access your accounts. Pleas
 
 When it opens, you will see a form.
 
-- First step is done by the seller. Now it is done manually, but the final product would do this hash in the backend. So, eEach product that is going to be sold in a stock, will have tag. It can be a QR code or barcode. For this demo, add any number and click **Hash Tag Id**.
+- First step is done by the seller. Now it is done manually, but the final product would do this hash in the backend. So, each product that is going to be sold in a stock, will have tag. It can be a QR code or barcode. For this demo, add any number and click **Hash Tag Id**.
 
 - After it is hashed, seller needs to sign it. So, when the product is sold to a buyer, we can guarantee the value that is being paid for that product is sent to the seller. You have to manually copy it and paste it to the input space and click **Sign Data**. Metamask will open a window and ask to sign the data. Accept it and you will see the signature in the screen.
 
