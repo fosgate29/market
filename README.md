@@ -56,4 +56,4 @@ When it opens, you will see a form.
 
 # Video
 
-- [PPT Ethereum bootcamp IFNMG](EthereumbootcampIFNMG.pdf): Slides da apresentação
+- [Slide presentation](https://youtube.com): 4 minutes video explaining the solution
