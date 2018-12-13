@@ -40,18 +40,18 @@ and open this url: localhost:8080
 
 Metamask will open and warn that a Dapp is trying to access your accounts. Please click ok.
 
-# Como funciona
+# How this demo works
 
-Usando Metamask, você consegue interagir com o Dapp a assinar transações. Para recuperar o hash para ser utilizado quando for assinar, capture o hash do Event da transação que estará no log (F12). Para recuperar o resultado da assinatura ao pedir a pizza, recupere do log do console também.
+When it opens, you will see a form.
 
-Primeiro, uns dos amigos seleciona o valor a ser gasto e a quantidade de pizzas e faz um hash destes valores. Depois, transfere o valor para o Smart Contract.
-Então, usando hash gerado, assine utilizando Metamask.
+- First step is done by the seller. Now it is done manually, but the final product would do this hash in the backend. So, eEach product that is going to be sold in a stock, will have tag. It can be a QR code or barcode. For this demo, add any number and click **Hash Tag Id**.
 
-Com esta assinatura, o outro amigo consegue fazer o pedido da pizza e recuperar o valor que está no smart contract. Para isto, ele precisa pedir o mesmo valor de pizzas e a mesma quantidade e passar o endereço (Address) do amigo que assinou o hash.
+- After it is hashed, seller needs to sign it. So, when the product is sold to a buyer, we can guarantee the value that is being paid for that product is sent to the seller. You have to manually copy it and paste it to the input space and click **Sign Data**.
+
+- Now, with the signed hash, copy it and paste in the last form, 
 
 
 
-# Material de suporte
+# Video
 
 - [PPT Ethereum bootcamp IFNMG](EthereumbootcampIFNMG.pdf): Slides da apresentação
-- [Links úteis](linksUteis.md):  Links de apoio ao conteúdo falado durante o bootcamp
