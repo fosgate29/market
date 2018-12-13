@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Market</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <script src="./app.js"></script>
+</head>
+<body>
+  <h1>Market Dapp</h1>
+  <h2>Buying a product</h2>
+  <br>
+  <h1>Hash Tag Id</h1>
+  <br><label for="_tagId">Tag Id:</label><input type="text" id="_tagId" placeholder="e.g., 4587965"></input>
+  <br><br><button id="hashIt" onclick="App.hashIt()">Hash Tag ID</button>
+  <span id="hashStatus"></span>
+  <br><br>
+  <h1>Sign Hash of Tag Id</h1>
+  <br><label for="toSign">Hash to sign:</label><input type="text" id="toSign" placeholder="e.g., 0x93e66d9baea28c17d9fc393b53e3fbdd76899dae"></input>
+  <br><br><button id="signIt" onclick="App.signIt()">Sign Data</button>
+  <br><br>
+  <span id="ethStatus"></span>
+  <br><br>
+  <h1>Pay for a Product</h1>
+  <br><label for="sentTagId">Tag ID:</label><input type="text" id="sentTagId" placeholder="e.g., 4587965"></input>
+  <br><label for="productPrice">Product price (in Wei):</label><input type="text" id="productPrice" placeholder="e.g., 100"></input>  
+  <br><label for="seller">Seller address:</label><input type="text" id="seller" placeholder="e.g., 0x93e66d9baea28c17d9fc393b53e3fbdd76899dae"></input>
+  <br><label for="stockist">Stockist address:</label><input type="text" id="stockist" placeholder="e.g., 0x11e66d9baea28c17d9fc393b53e3fbdd76899dae"></input>  
+  <br><label for="sig">Signature:</label><input type="text" id="sig" placeholder="e.g., 0x89e66d9baea28c17d9fc393b53e3fbdd76899dae...."></input>
+  <br><br><button id="buyProduct" onclick="App.buyProduct()">Buy Product</button>
+  <br><br>
+  <span id="buyProductStatus"></span>
+  <br>
+</body>
+</html>
