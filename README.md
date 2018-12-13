@@ -1,41 +1,36 @@
-## Bootcamp Blockchain + Ethereum
+## UNICEF Innovation Challenge - Blockchain
 
-Material utilizado no bootcamp no [IFNMG](https://www.ifnmg.edu.br/) realizado no dia 27/11/2018
-
-
-# Assinatura-Exemplo
-Um exemplo para mostrar o uso de assinaturas com Metamask usando Smart Contracts. O exemplo consiste em simular o pedido de uma pizza entre amigos.
-
-# Dependências
-Já tem nodejs instalado? Não? 
+# Dependencies
+Do you have **nodejs** installed? 
 
 https://nodejs.org/en/download/
 
-Instalar Truffle - Ferramenta de desenvolvimento Ethereum
+You also need **Truffle** - It is a developer tool to work with Ethereum
 
 `npm install -g truffle`
 
-Instalar Metamask - plugin Chrome para trabalhar com wallets
+Install **Metamask** - It is a browser plugin Chrome to work with Ethereum wallets
 
 https://metamask.io/
 
-Instalar ganache-cli - Ganache simula uma rede Ethereum para testes. 
+Install **ganache-cli** - Ganache  simulates Ethereum blockchain for tests purposes
 
 `npm install -g ganache-cli`
 
-1o. passo:
-git clone https://github.com/fosgate29/Signature-Example.git
+After environment is setup, clone this repo:
+`git clone https://github.com/fosgate29/Signature-Example.git`
 
-Abrir um novo terminal e executar `ganache-cli`
+Then, open a new terminal and execute `ganache-cli`
 
-Ir pra pasta Signature-Example e executar e aguardar
+After **Ganache** is running, go to **market** folder and execute **npm install** and wait because it may take some time
 
 `npm install`
 
-Executar `truffle migrate --development --reset` (vai enviar o código compilado do Smart Contract pro Ganache - que é a rede de teste)
+When it is done, execute `truffle migrate --development --reset` (it will compile and send the compiled smart contract to Ganache instance)
 
-Abrir browser e desbloquear Metamask.
-Pegar a seed (palavras) e importar a conta da rede privada. Logo que o ganache inicia, ele coloca na tela seed e private keys das contas.
+Open your browser that you have **Metamask** working and unlock it. Please get seeds words from Ganache to be able to important the tests accounts to Metamask.
+
+
 
 Executar 
 
