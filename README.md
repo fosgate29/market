@@ -30,6 +30,8 @@ When it is done, execute `truffle migrate --development --reset` (it will compil
 
 Open your browser that you have **Metamask** working and unlock it. Please get seeds words from Ganache to be able to important the tests accounts to Metamask.
 
+![](ganachessedwords.gif)
+
 Execute
 
 `npm run dev` 
