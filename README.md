@@ -53,7 +53,10 @@ When it opens, you will see a form.
 
 - With all input fields filled, click **Buy Product**. Metamask will open for you to confirm the transaction. For the first time, you don´t have to change the Metamask user. It can be the same address for the seller, buyer and stockist. Why do we need stockist address? I added to the logic a fee for the stockist. It is fixed now in 10%, but Smart Contract can be easily updated to make this value dynamic. 
 
+# Support material
 
+- [Slide presentation](unicefpresentation.pdf): 3 slides in a pdf file
+- [Sketches](sketches.pdf): 3 UI in a pdf file
 
 # Video
 
