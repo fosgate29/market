@@ -9,7 +9,7 @@ You also need **Truffle** - It is a developer tool to work with Ethereum
 
 `npm install -g truffle`
 
-Install **Metamask** - It is a browser plugin Chrome to work with Ethereum wallets. If you have never used Metamask,
+Install **Metamask** - It is a browser plugin to facilate the use of Ethereum wallets. If you have never used Metamask,
 you may watch this video first: [How to use Metamask](https://media.consensys.net/how-to-use-metamask-like-a-wizard-850a96fdd95c)
 
 https://metamask.io/
