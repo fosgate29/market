@@ -62,4 +62,4 @@ When it opens, you will see a form.
 
 # Video
 
-- [Slide presentation](https://youtube.com): 4 minutes video explaining the solution
+- [Video](https://youtu.be/qZgG0tRbk4s): 4 minutes video explaining the solution
